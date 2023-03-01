@@ -1,6 +1,8 @@
 import React from 'react'
 
-export const GifItem = ({title, url, id}) => {
+// Se crea una tarjeta que recibe la url y el titulo de un gif
+
+export const GifItem = ({ title, url }) => {
 
   console.log(title, url)
 
